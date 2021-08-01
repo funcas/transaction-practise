@@ -1,0 +1,25 @@
+POST http://localhost:9080/test/v1
+Content-Type: application/json
+
+{
+  "name": "funcas",
+  "age": 99
+}
+
+###
+
+POST http://localhost:9080/test/v2
+Content-Type: application/json
+
+{
+  "user": {
+    "name": "a",
+    "age": 18
+  },
+  "account": {
+    "username": "aaa",
+    "password": "123456"
+  }
+}
+
+###
